@@ -1,5 +1,5 @@
  <?php
-$servername = "mysql-1.database.svc.cluster.local";
+$servername = "<SERVICE-IP>";
 $serverport = "3306";
 $username = getenv('MYSQL_USER');
 $password = getenv('MYSQL_PASSWORD');
