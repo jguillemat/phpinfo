@@ -1,6 +1,6 @@
  <?php
 $servername = "mysql.database.svc.cluster.local";
-$serverport = "3306";
+$serverport = getenv('MYSQL_PORT');
 $username = getenv('MYSQL_USER');
 $password = getenv('MYSQL_PASSWORD');
 $dbname = getenv('MYSQL_DATABASE');
@@ -20,7 +20,7 @@ table, th, td {
     border-collapse: collapse;
 }
 </style>
-</head><body>';
+</head><body><h1>WTC Barcelona OpenShift</h1>';
 if ($result->num_rows > 0) {
     // output data of each row
 echo '<table style="width:100%"><tr><th>Product</th><th>Description</th></tr>';
