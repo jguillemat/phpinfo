@@ -1,6 +1,6 @@
  <?php
-$servername = getenv('MYSQL_1_SERVICE_HOST');
-$serverport = getenv('MYSQL_1_SERVICE_PORT');
+$servername = getenv('MYSQL_SERVICE_HOST');
+$serverport = getenv('MYSQL_SERVICE_PORT');
 $username = getenv('MYSQL_USER');
 $password = getenv('MYSQL_PASSWORD');
 $dbname = getenv('MYSQL_DATABASE');
