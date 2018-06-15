@@ -1,1 +1,1 @@
-# php-ocp-sql
+# Simple PHP app: shows the php runtime info
